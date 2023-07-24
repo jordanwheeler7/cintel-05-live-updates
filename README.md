@@ -45,6 +45,7 @@ With your respository folder open in VS Code:
 Open a PowerShell terminal in this cintel-05-live-updates folder on your machine. 
 Create a virtual environment named .venv in the current directory. 
 Verify that a .venv folder was created after running the command. 
+Try to keep a short path as too long of a path causes issues installing all requirements.
 
 ```shell
 python -m venv .venv
