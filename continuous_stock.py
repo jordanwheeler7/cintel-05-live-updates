@@ -71,15 +71,15 @@ async def get_stock_price(ticker):
 # Function to create or overwrite the CSV file with column headings
 def init_csv_file(file_path):
     df_empty = pd.DataFrame(
-        columns=["Location", "Latitude", "Longitude", "Time", "Temp_F"]
+        columns=["Company", "Ticker", "Time", "Price"]
     )
     df_empty.to_csv(file_path, index=False)    
     
-async def update_csv_ticker():
+async def update_csv_stock():
     """Update the CSV file with the latest location information."""
     logger.info("Calling update_csv_stock_price")
     try:
-        companies = ["Cadence Design Systems", "Synopys", "Tractor Supply Company", "Lululemon Ahtletica Inc.", "Arch Capital Group Ltd.", "Costco Wholesale Corporation", "Brown & Brown Inc.", "Thermo Fisher Scientific Inc.", "CDW Corporation", "Intuit Inc."]
+        company = ["Cadence Design Systems", "Synopys", "Tractor Supply Company", "Lululemon Ahtletica Inc.", "Arch Capital Group Ltd.", "Costco Wholesale Corporation", "Brown & Brown Inc.", "Thermo Fisher Scientific Inc.", "CDW Corporation", "Intuit Inc."]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
         num_updates = 10  # Keep the most recent 10 readings
@@ -99,16 +99,15 @@ async def update_csv_ticker():
         logger.info(f"Initialized csv file at {fp}")
 
         for _ in range(num_updates):  # To get num_updates readings
-            for location in locations:
-                lat, long = lookup_lat_long(location)
-                new_temp = await get_temperature_from_openweathermap(lat, long)
+            for stock_price in stock_price:
+                ticker = lookup_ticker(company)
+                new_price = await get_stock_price(ticker)
                 time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current time
                 new_record = {
-                    "Location": location,
-                    "Latitude": lat,
-                    "Longitude": long,
+                    "Company": company,
+                    "Ticker": ticker,
                     "Time": time_now,
-                    "Temp_F": new_temp,
+                    "Price": new_price,
                 }
                 records_deque.append(new_record)
 
@@ -117,10 +116,10 @@ async def update_csv_ticker():
 
             # Save the DataFrame to the CSV file, deleting its contents before writing
             df.to_csv(fp, index=False, mode="w")
-            logger.info(f"Saving temperatures to {fp}")
+            logger.info(f"Saving prices to {fp}")
 
             # Wait for update_interval seconds before the next reading
             await asyncio.sleep(update_interval)
 
     except Exception as e:
-        logger.error(f"ERROR in update_csv_location: {e}")
+        logger.error(f"ERROR in update_csv_stock: {e}")
