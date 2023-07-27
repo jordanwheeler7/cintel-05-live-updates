@@ -269,7 +269,7 @@ def get_mtcars_server_functions(input, output, session):
         mtcars_location_table,
         mtcars_location_chart,
         mtcars_stocks_string,
-        mtcars_stocks_table,
+        mtcars_stocks_table, # Not rendering
         mtcars_stock_chart,
     ]
 
