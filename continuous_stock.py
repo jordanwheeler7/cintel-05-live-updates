@@ -12,7 +12,7 @@ Continuous information might also come from a database, a data lake, a data ware
 Live Stock Price Data
 -----------------------------
 
-We use the yfinance package to get live stock price data.
+Using Fetch API to get live stock price data from Yahoo Finance.
 
 -----------------------
 Keeping Secrets Secret
