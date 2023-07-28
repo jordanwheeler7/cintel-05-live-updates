@@ -39,6 +39,7 @@ from collections import deque
 
 
 # Local Imports
+from fetch import fetch_from_url
 from util_logger import setup_logger
 
 # Set up a file logger
@@ -63,9 +64,14 @@ def lookup_ticker(company):
 
 async def get_stock_price(ticker):
     logger.info("Calling get_stock_price for {ticker}")
+    yfinance_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
+    logger.info(f"Calling yfinance_url: {yfinance_url}")
+    result = await fetch_from_url(yfinance_url)
+    logger.info(f"Data from YFinance: {result}")
+    #   price = data["main"]["price"]
     # stock = yf.Ticker(ticker) # uncomment when ready to use real data #This gets stock data for the ticker
     # price = stock.info['currentPrice'] #This gets the closing price for the stock
-    price = randint(132, 148)  # This is a random number generator for testing
+    price = randint(60, 190)  # This is a random number generator for testing
     return price
 
 # Function to create or overwrite the CSV file with column headings
