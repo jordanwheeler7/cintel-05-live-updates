@@ -7,11 +7,14 @@ Preface IDs with the dataset name to avoid naming conflicts.
 
 """
 from shiny import ui
-
+import randfacts
 # Define the UI inputs and include our new selection options
 
 def get_mtcars_inputs():
     return ui.panel_sidebar(
+        ui.h2("Here is a random fact for you to enjoy!"),
+        ui.h5(randfacts.getFact()),
+        ui.hr(),
         ui.h2("MT Cars Interaction"),
         ui.tags.hr(),
         ui.input_slider(
@@ -24,7 +27,7 @@ def get_mtcars_inputs():
         ui.input_select(
             id="MTCARS_LOCATION_SELECT",
             label="Choose a location",
-            choices=["ELY MN", "Death Valley CA", "Maryville MO"],
+            choices=["ELY MN", "Death Valley CA", "Maryville MO", "Reykjavik Iceland"],
             selected="ELY MN",
         ),
         ui.input_select(

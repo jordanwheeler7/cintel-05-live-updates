@@ -67,6 +67,7 @@ def lookup_lat_long(location):
         "ELY MN": {"latitude": 47.903237, "longitude": -91.867087},
         "Death Valley CA": {"latitude": 36.5323, "longitude": -116.93},
         "Maryville MO": {"latitude": 40.346102, "longitude": -94.872471},
+        "Reykjavik IS": {"latitude": 64.1265, "longitude": -21.8174},
     }
     answer_dict = locations_dictionary[location]
     lat = answer_dict["latitude"]
@@ -81,8 +82,8 @@ async def get_temperature_from_openweathermap(lat, long):
     logger.info(f"Calling fetch_from_url for {open_weather_url}")
     result = await fetch_from_url(open_weather_url, "json")
     logger.info(f"Data from openweathermap: {result}")
-    #   temp_F = data["main"]["temp"]
-    temp_F = randint(68, 77)
+    temp_F = result.data["main"]["temp"]
+    # temp_F = randint(68, 77)  # For testing
     return temp_F
 
 
@@ -98,7 +99,7 @@ async def update_csv_location():
     """Update the CSV file with the latest location information."""
     logger.info("Calling update_csv_location")
     try:
-        locations = ["ELY MN", "Death Valley CA", "Maryville MO"]
+        locations = ["ELY MN", "Death Valley CA", "Maryville MO", "Reykjavik IS"]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
         num_updates = 10  # Keep the most recent 10 readings
