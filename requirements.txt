@@ -8,6 +8,7 @@ plotly
 plotnine
 pyodide-py
 python-dotenv
+randfacts
 requests
 rsconnect-python
 shiny 
