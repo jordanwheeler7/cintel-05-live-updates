@@ -214,6 +214,14 @@ def get_mtcars_server_functions(input, output, session):
 
     @reactive.file_reader(str(csv_stocks))
     def get_mtcars_stock_df():
+        """Return mtcars stocks pandas Dataframe."""
+        logger.info(f"READING df from {csv_stocks}")
+        df = pd.read_csv(csv_stocks)
+        logger.info(f"READING df len {len(df)}")
+        return df
+
+    @reactive.file_reader(str(csv_stocks))
+    def get_mtcars_stock_df():
         """Return mtcars prices pandas Dataframe."""
         logger.info(f"READING df from {csv_stocks}")
         df = pd.read_csv(csv_stocks)
