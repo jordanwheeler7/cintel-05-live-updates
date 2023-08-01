@@ -27,7 +27,7 @@ def get_mtcars_inputs():
         ui.input_select(
             id="MTCARS_LOCATION_SELECT",
             label="Choose a location",
-            choices=["ELY MN", "Death Valley CA", "Maryville MO", "Reykjavik Iceland"],
+            choices=["ELY MN", "Death Valley CA", "Maryville MO", "Milan MO"],
             selected="ELY MN",
         ),
         ui.input_select(

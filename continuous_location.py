@@ -67,7 +67,7 @@ def lookup_lat_long(location):
         "ELY MN": {"latitude": 47.903237, "longitude": -91.867087},
         "Death Valley CA": {"latitude": 36.5323, "longitude": -116.93},
         "Maryville MO": {"latitude": 40.346102, "longitude": -94.872471},
-        "Reykjavik IS": {"latitude": 64.1265, "longitude": -21.8174},
+        "Milan MO": {"latitude": 40.2, "longitude": -93.15},
     }
     answer_dict = locations_dictionary[location]
     lat = answer_dict["latitude"]
@@ -99,7 +99,7 @@ async def update_csv_location():
     """Update the CSV file with the latest location information."""
     logger.info("Calling update_csv_location")
     try:
-        locations = ["ELY MN", "Death Valley CA", "Maryville MO", "Reykjavik IS"]
+        locations = ["ELY MN", "Death Valley CA", "Maryville MO", "Milan MO"]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
         num_updates = 10  # Keep the most recent 10 readings
