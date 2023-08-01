@@ -3,6 +3,7 @@
 - Repository: [cintel-05-live-updates](https://github.com/jordanwheeler7/cintel-05-live-updates)
 - Website: [cintel-05-live-updates](https://jordanwheeler7.github.io/cintel-05-live-updates/)
 - Author: [Jordan Wheeler](https://github.com/jordanwheeler7)
+- Shiny: [Wheeler Dashboard](https://jordan-wheeler7.shinyapps.io/cintel-05-live-updates/)
 
 -----
 
