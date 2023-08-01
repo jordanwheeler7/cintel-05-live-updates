@@ -63,6 +63,7 @@ def get_API_key():
 
 def lookup_lat_long(location):
     """Return the latitude and longitude for the given location."""
+    # Create Locations Dictionary
     locations_dictionary = {
         "ELY MN": {"latitude": 47.903237, "longitude": -91.867087},
         "Death Valley CA": {"latitude": 36.5323, "longitude": -116.93},
