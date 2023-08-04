@@ -1,73 +1,134 @@
-2023-08-03 21:43:30,231.continuous_stock.INFO =============================================================
-2023-08-03 21:43:30,232.continuous_stock.INFO Today is 2023-08-03 at 09:43 PM
-2023-08-03 21:43:30,232.continuous_stock.INFO This file is running on: nt Windows 10
-2023-08-03 21:43:30,232.continuous_stock.INFO The Python version is: 3.11.1
-2023-08-03 21:43:30,232.continuous_stock.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
-2023-08-03 21:43:30,233.continuous_stock.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
-2023-08-03 21:43:30,233.continuous_stock.INFO =============================================================
-2023-08-03 21:43:34,690.continuous_stock.INFO Calling update_csv_stock
-2023-08-03 21:43:34,690.continuous_stock.INFO update_interval: 60
-2023-08-03 21:43:34,690.continuous_stock.INFO total_runtime: 900
-2023-08-03 21:43:34,690.continuous_stock.INFO num_updates: 100
-2023-08-03 21:43:34,690.continuous_stock.INFO Initialized csv file at C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
-2023-08-03 21:43:34,691.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:34,691.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
-2023-08-03 21:43:35,015.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9AFD0>
-2023-08-03 21:43:35,016.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:35,016.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
-2023-08-03 21:43:35,271.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9B110>
-2023-08-03 21:43:35,272.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:35,272.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
-2023-08-03 21:43:35,426.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9A150>
-2023-08-03 21:43:35,426.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:35,427.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
-2023-08-03 21:43:35,570.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9A3D0>
-2023-08-03 21:43:35,570.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:35,570.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
-2023-08-03 21:43:35,868.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD99310>
-2023-08-03 21:43:35,868.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:35,869.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
-2023-08-03 21:43:36,023.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD99190>
-2023-08-03 21:43:36,023.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:36,023.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
-2023-08-03 21:43:36,339.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9BC90>
-2023-08-03 21:43:36,340.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:36,340.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
-2023-08-03 21:43:36,508.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9BD90>
-2023-08-03 21:43:36,508.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:36,508.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
-2023-08-03 21:43:36,764.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD998D0>
-2023-08-03 21:43:36,764.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:36,764.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
-2023-08-03 21:43:36,970.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD99950>
-2023-08-03 21:43:36,972.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:36,972.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
-2023-08-03 21:43:37,212.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC2210>
-2023-08-03 21:43:37,213.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:37,213.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
-2023-08-03 21:43:37,500.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC2290>
-2023-08-03 21:43:37,501.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:37,501.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
-2023-08-03 21:43:37,625.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9BD10>
-2023-08-03 21:43:37,626.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:37,626.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
-2023-08-03 21:43:37,773.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9AB10>
-2023-08-03 21:43:37,774.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:37,774.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
-2023-08-03 21:43:37,927.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC0A10>
-2023-08-03 21:43:37,928.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:37,928.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
-2023-08-03 21:43:38,121.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC0AD0>
-2023-08-03 21:43:38,121.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:38,121.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
-2023-08-03 21:43:38,250.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD9A3D0>
-2023-08-03 21:43:38,250.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:38,250.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
-2023-08-03 21:43:38,388.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BD98CD0>
-2023-08-03 21:43:38,388.continuous_stock.INFO Calling get_stock_price for {ticker}
-2023-08-03 21:43:38,389.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
-2023-08-03 21:43:38,644.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC0F10>
-2023-08-03 21:43:38,645.continuous_stock.INFO Calling get_daily_high for {ticker}
-2023-08-03 21:43:38,645.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
-2023-08-03 21:43:38,834.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000002283BDC0FD0>
-2023-08-03 21:43:38,837.continuous_stock.INFO Saving prices to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-03 22:05:43,205.continuous_stock.INFO =============================================================
+2023-08-03 22:05:43,206.continuous_stock.INFO Today is 2023-08-03 at 10:05 PM
+2023-08-03 22:05:43,206.continuous_stock.INFO This file is running on: nt Windows 10
+2023-08-03 22:05:43,206.continuous_stock.INFO The Python version is: 3.11.1
+2023-08-03 22:05:43,206.continuous_stock.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
+2023-08-03 22:05:43,207.continuous_stock.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
+2023-08-03 22:05:43,207.continuous_stock.INFO =============================================================
+2023-08-03 22:05:48,117.continuous_stock.INFO Calling update_csv_stock
+2023-08-03 22:05:48,117.continuous_stock.INFO update_interval: 60
+2023-08-03 22:05:48,117.continuous_stock.INFO total_runtime: 900
+2023-08-03 22:05:48,118.continuous_stock.INFO num_updates: 100
+2023-08-03 22:05:48,118.continuous_stock.INFO Initialized csv file at C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-03 22:05:48,118.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:48,118.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
+2023-08-03 22:05:48,409.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0B550>
+2023-08-03 22:05:48,410.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:48,410.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
+2023-08-03 22:05:48,698.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0B650>
+2023-08-03 22:05:48,698.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:48,698.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
+2023-08-03 22:05:48,961.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0A150>
+2023-08-03 22:05:48,962.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:48,962.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
+2023-08-03 22:05:49,280.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0A2D0>
+2023-08-03 22:05:49,280.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:49,280.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
+2023-08-03 22:05:49,476.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC08E10>
+2023-08-03 22:05:49,477.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:49,477.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
+2023-08-03 22:05:49,701.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC093D0>
+2023-08-03 22:05:49,701.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:49,701.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
+2023-08-03 22:05:50,060.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC24290>
+2023-08-03 22:05:50,060.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:50,060.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
+2023-08-03 22:05:50,278.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC20350>
+2023-08-03 22:05:50,278.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:50,278.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
+2023-08-03 22:05:50,397.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC09990>
+2023-08-03 22:05:50,397.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:50,398.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
+2023-08-03 22:05:50,534.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC08110>
+2023-08-03 22:05:50,535.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:50,535.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
+2023-08-03 22:05:50,901.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC22750>
+2023-08-03 22:05:50,902.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:50,902.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
+2023-08-03 22:05:51,190.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC22810>
+2023-08-03 22:05:51,191.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:51,191.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
+2023-08-03 22:05:51,377.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0AF10>
+2023-08-03 22:05:51,377.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:51,377.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
+2023-08-03 22:05:51,609.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0AED0>
+2023-08-03 22:05:51,609.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:51,610.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
+2023-08-03 22:05:51,878.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC212D0>
+2023-08-03 22:05:51,879.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:51,879.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
+2023-08-03 22:05:52,170.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC21250>
+2023-08-03 22:05:52,170.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:52,170.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
+2023-08-03 22:05:52,421.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC0A3D0>
+2023-08-03 22:05:52,421.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:52,421.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
+2023-08-03 22:05:52,613.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC08650>
+2023-08-03 22:05:52,614.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:05:52,614.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
+2023-08-03 22:05:52,879.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC21710>
+2023-08-03 22:05:52,879.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:05:52,879.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
+2023-08-03 22:05:53,084.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F74FC217D0>
+2023-08-03 22:05:53,086.continuous_stock.INFO Saving prices to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-03 22:06:53,104.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:53,104.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
+2023-08-03 22:06:53,365.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37AD0>
+2023-08-03 22:06:53,365.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:53,365.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDNS
+2023-08-03 22:06:53,637.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37C90>
+2023-08-03 22:06:53,637.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:53,638.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
+2023-08-03 22:06:53,888.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE373D0>
+2023-08-03 22:06:53,888.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:53,888.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/SNPS
+2023-08-03 22:06:54,062.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37590>
+2023-08-03 22:06:54,062.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:54,062.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
+2023-08-03 22:06:54,364.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37750>
+2023-08-03 22:06:54,364.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:54,364.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TSCO
+2023-08-03 22:06:54,881.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE378D0>
+2023-08-03 22:06:54,882.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:54,882.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
+2023-08-03 22:06:55,298.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE48A90>
+2023-08-03 22:06:55,298.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:55,298.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/LULU
+2023-08-03 22:06:55,461.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE44C50>
+2023-08-03 22:06:55,462.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:55,462.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
+2023-08-03 22:06:55,592.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE34C90>
+2023-08-03 22:06:55,592.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:55,592.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/ACGL
+2023-08-03 22:06:55,782.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37ED0>
+2023-08-03 22:06:55,782.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:55,783.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
+2023-08-03 22:06:55,947.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE4B250>
+2023-08-03 22:06:55,947.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:55,948.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/COST
+2023-08-03 22:06:56,100.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE4B350>
+2023-08-03 22:06:56,100.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:56,100.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
+2023-08-03 22:06:56,302.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE35690>
+2023-08-03 22:06:56,302.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:56,302.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/BRO
+2023-08-03 22:06:56,446.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE37AD0>
+2023-08-03 22:06:56,447.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:56,447.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
+2023-08-03 22:06:56,724.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE484D0>
+2023-08-03 22:06:56,724.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:56,725.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/TMO
+2023-08-03 22:06:56,928.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE48550>
+2023-08-03 22:06:56,928.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:56,928.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
+2023-08-03 22:06:57,049.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE378D0>
+2023-08-03 22:06:57,049.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:57,049.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/CDW
+2023-08-03 22:06:57,208.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE35B90>
+2023-08-03 22:06:57,208.continuous_stock.INFO Calling get_stock_price for {ticker}
+2023-08-03 22:06:57,208.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
+2023-08-03 22:06:57,408.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE48990>
+2023-08-03 22:06:57,409.continuous_stock.INFO Calling get_daily_high for {ticker}
+2023-08-03 22:06:57,409.continuous_stock.INFO Calling fetch_from_url: https://query1.finance.yahoo.com/v7/finance/options/INTU
+2023-08-03 22:06:57,673.continuous_stock.INFO Data from yahoofinance: <fetch.HttpResponse object at 0x000001F72BE489D0>
+2023-08-03 22:06:57,675.continuous_stock.INFO Saving prices to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv

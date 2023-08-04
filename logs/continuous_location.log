@@ -1,25 +1,38 @@
-2023-08-03 21:43:30,128.continuous_location.INFO =============================================================
-2023-08-03 21:43:30,129.continuous_location.INFO Today is 2023-08-03 at 09:43 PM
-2023-08-03 21:43:30,129.continuous_location.INFO This file is running on: nt Windows 10
-2023-08-03 21:43:30,129.continuous_location.INFO The Python version is: 3.11.1
-2023-08-03 21:43:30,129.continuous_location.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
-2023-08-03 21:43:30,129.continuous_location.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
-2023-08-03 21:43:30,130.continuous_location.INFO =============================================================
-2023-08-03 21:43:33,798.continuous_location.INFO Calling update_csv_location
-2023-08-03 21:43:33,799.continuous_location.INFO update_interval: 60
-2023-08-03 21:43:33,799.continuous_location.INFO total_runtime: 900
-2023-08-03 21:43:33,799.continuous_location.INFO num_updates: 40
-2023-08-03 21:43:33,800.continuous_location.INFO Initialized csv file at C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
-2023-08-03 21:43:33,800.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-03 21:43:33,801.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
-2023-08-03 21:43:34,031.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000002283BD976D0>
-2023-08-03 21:43:34,031.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-03 21:43:34,032.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
-2023-08-03 21:43:34,244.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000002283BD97250>
-2023-08-03 21:43:34,244.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-03 21:43:34,245.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
-2023-08-03 21:43:34,465.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000002283BD95ED0>
-2023-08-03 21:43:34,465.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
-2023-08-03 21:43:34,466.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.2&lon=-93.15&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
-2023-08-03 21:43:34,686.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000002283BD95690>
-2023-08-03 21:43:34,689.continuous_location.INFO Saving temperatures to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-03 22:05:43,108.continuous_location.INFO =============================================================
+2023-08-03 22:05:43,108.continuous_location.INFO Today is 2023-08-03 at 10:05 PM
+2023-08-03 22:05:43,109.continuous_location.INFO This file is running on: nt Windows 10
+2023-08-03 22:05:43,109.continuous_location.INFO The Python version is: 3.11.1
+2023-08-03 22:05:43,109.continuous_location.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
+2023-08-03 22:05:43,109.continuous_location.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
+2023-08-03 22:05:43,110.continuous_location.INFO =============================================================
+2023-08-03 22:05:47,195.continuous_location.INFO Calling update_csv_location
+2023-08-03 22:05:47,195.continuous_location.INFO update_interval: 60
+2023-08-03 22:05:47,195.continuous_location.INFO total_runtime: 900
+2023-08-03 22:05:47,195.continuous_location.INFO num_updates: 40
+2023-08-03 22:05:47,196.continuous_location.INFO Initialized csv file at C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-03 22:05:47,196.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:05:47,197.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:05:47,429.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F74FBD5190>
+2023-08-03 22:05:47,429.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:05:47,430.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:05:47,672.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F72CF36990>
+2023-08-03 22:05:47,672.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:05:47,673.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:05:47,899.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F74FC059D0>
+2023-08-03 22:05:47,899.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:05:47,900.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.2&lon=-93.15&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:05:48,114.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F74FC06D90>
+2023-08-03 22:05:48,117.continuous_location.INFO Saving temperatures to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-03 22:06:48,125.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:06:48,126.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=47.903237&lon=-91.867087&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:06:48,302.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F72BDDFED0>
+2023-08-03 22:06:48,302.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:06:48,303.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=36.5323&lon=-116.93&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:06:48,481.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F72BDE8210>
+2023-08-03 22:06:48,481.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:06:48,482.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.346102&lon=-94.872471&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:06:48,673.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F72BDE83D0>
+2023-08-03 22:06:48,673.continuous_location.INFO Calling get_temperature_from_openweathermap for {lat}, {long}}
+2023-08-03 22:06:48,674.continuous_location.INFO Calling fetch_from_url for https://api.openweathermap.org/data/2.5/weather?lat=40.2&lon=-93.15&appid=700c64b72b5ac9d9d588a185e636d044&units=imperial
+2023-08-03 22:06:48,863.continuous_location.INFO Data from openweathermap: <fetch.HttpResponse object at 0x000001F72BDE86D0>
+2023-08-03 22:06:48,865.continuous_location.INFO Saving temperatures to C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv

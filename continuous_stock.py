@@ -72,6 +72,16 @@ async def get_stock_price(ticker):
     # price = randint(60, 190)  # This is a random number generator for testing
     return price
 
+# Get Daily High
+async def get_daily_high(ticker):
+    logger.info("Calling get_daily_high for {ticker}")
+    stock_api_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
+    logger.info(f"Calling fetch_from_url: {stock_api_url}")
+    result = await fetch_from_url(stock_api_url, "json")
+    logger.info(f"Data from yahoofinance: {result}")
+    daily_high = result.data["optionChain"]["result"][0]["quote"]["regularMarketDayHigh"]
+    return daily_high
+
 # Function to create or overwrite the CSV file with column headings
 def init_csv_file(file_path):
     df_empty = pd.DataFrame(
