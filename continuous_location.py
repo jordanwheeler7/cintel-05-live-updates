@@ -103,8 +103,8 @@ async def update_csv_location():
         locations = ["ELY MN", "Death Valley CA", "Maryville MO", "Milan MO"]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
-        num_updates = 10  # Keep the most recent 10 readings
-        logger.info(f"update_interval: {update_interval}")
+        num_updates = 40 # Keep the most recent 10 readings
+        logger.info(f"update_interval: {update_interval}") 
         logger.info(f"total_runtime: {total_runtime}")
         logger.info(f"num_updates: {num_updates}")
 

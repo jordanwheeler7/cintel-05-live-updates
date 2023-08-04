@@ -1,50 +1,57 @@
-2023-07-31 19:45:58,020.mtcars_server.INFO =============================================================
-2023-07-31 19:45:58,020.mtcars_server.INFO Today is 2023-07-31 at 07:45 PM
-2023-07-31 19:45:58,020.mtcars_server.INFO This file is running on: nt Windows 10
-2023-07-31 19:45:58,020.mtcars_server.INFO The Python version is: 3.11.1
-2023-07-31 19:45:58,020.mtcars_server.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
-2023-07-31 19:45:58,020.mtcars_server.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
-2023-07-31 19:45:58,021.mtcars_server.INFO =============================================================
-2023-07-31 19:45:59,220.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-31 19:45:59,274.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-31 19:45:59,809.mtcars_server.INFO Starting mtcars_plot1
-2023-07-31 19:46:00,708.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-31 19:46:00,710.mtcars_server.INFO READING df len 5
-2023-07-31 19:46:00,711.mtcars_server.INFO init reactive_temp_df len: 5
-2023-07-31 19:46:00,711.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-31 19:46:00,712.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-08-03 21:43:31,084.mtcars_server.INFO =============================================================
+2023-08-03 21:43:31,084.mtcars_server.INFO Today is 2023-08-03 at 09:43 PM
+2023-08-03 21:43:31,085.mtcars_server.INFO This file is running on: nt Windows 10
+2023-08-03 21:43:31,085.mtcars_server.INFO The Python version is: 3.11.1
+2023-08-03 21:43:31,085.mtcars_server.INFO The active environment path is:   C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\.venv
+2023-08-03 21:43:31,085.mtcars_server.INFO The current working directory is: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates
+2023-08-03 21:43:31,085.mtcars_server.INFO =============================================================
+2023-08-03 21:43:32,200.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-08-03 21:43:32,257.mtcars_server.INFO Starting mtcars_output_widget1
+2023-08-03 21:43:32,770.mtcars_server.INFO Starting mtcars_plot1
+2023-08-03 21:43:33,655.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-03 21:43:33,657.mtcars_server.INFO READING df len 24
+2023-08-03 21:43:33,657.mtcars_server.INFO init reactive_temp_df len: 24
+2023-08-03 21:43:33,658.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-08-03 21:43:33,658.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-31 19:46:00,713.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-31 19:46:00,715.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-31 19:46:00,758.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
-2023-07-31 19:46:00,759.mtcars_server.INFO READING df len 10
-2023-07-31 19:46:00,760.mtcars_server.INFO init reactive_price_df len: 10
-2023-07-31 19:46:00,760.mtcars_server.INFO mtcars_price_stocks_string starting
-2023-07-31 19:46:00,760.mtcars_server.INFO Recent Price in USD for Cadence Design Systems.
+2023-08-03 21:43:33,659.mtcars_server.INFO Rendering TEMP table with 6 rows
+2023-08-03 21:43:33,662.mtcars_server.INFO Rendering TEMP chart with 6 points
+2023-08-03 21:43:33,707.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-03 21:43:33,709.mtcars_server.INFO READING df len 60
+2023-08-03 21:43:33,709.mtcars_server.INFO init reactive_price_df len: 60
+2023-08-03 21:43:33,710.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-08-03 21:43:33,710.mtcars_server.INFO Recent Price in USD for Cadence Design Systems.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-31 19:46:00,762.mtcars_server.INFO Rendering Price table with 1 rows
-2023-07-31 19:46:00,764.mtcars_server.INFO Rendering Price chart with 1 points
-2023-07-31 19:46:04,081.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-31 19:46:04,087.mtcars_server.INFO READING df len 4
-2023-07-31 19:46:04,088.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-31 19:46:04,090.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-31 19:46:04,133.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
-2023-07-31 19:46:04,139.mtcars_server.INFO READING df len 10
-2023-07-31 19:46:04,139.mtcars_server.INFO Rendering Price table with 1 rows
-2023-07-31 19:46:04,141.mtcars_server.INFO Rendering Price chart with 1 points
-2023-07-31 19:46:05,156.mtcars_server.INFO init reactive_temp_df len: 4
-2023-07-31 19:46:05,156.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-31 19:46:05,157.mtcars_server.INFO Recent Temperature in F for Maryville MO.
+2023-08-03 21:43:33,712.mtcars_server.INFO Rendering Price table with 6 rows
+2023-08-03 21:43:33,721.mtcars_server.INFO Rendering Price chart with 6 points
+2023-08-03 21:43:38,839.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_location.csv
+2023-08-03 21:43:38,845.mtcars_server.INFO READING df len 4
+2023-08-03 21:43:38,846.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-08-03 21:43:38,851.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-03 21:43:38,890.mtcars_server.INFO READING df from C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Continuous Intellgience\Module 5\cintel-05-live-updates\data\mtcars_stock.csv
+2023-08-03 21:43:38,897.mtcars_server.INFO READING df len 10
+2023-08-03 21:43:38,898.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-03 21:43:38,899.mtcars_server.INFO Rendering Price chart with 1 points
+2023-08-03 21:43:39,048.mtcars_server.INFO init reactive_price_df len: 10
+2023-08-03 21:43:39,048.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-08-03 21:43:39,049.mtcars_server.INFO Recent Price in USD for Arch Capital Group Ltd..
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-31 19:46:05,158.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-31 19:46:05,160.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-31 19:46:08,284.mtcars_server.INFO init reactive_temp_df len: 4
-2023-07-31 19:46:08,284.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-31 19:46:08,285.mtcars_server.INFO Recent Temperature in F for Milan MO.
+2023-08-03 21:43:39,050.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-03 21:43:39,053.mtcars_server.INFO Rendering Price chart with 1 points
+2023-08-03 21:43:45,650.mtcars_server.INFO init reactive_price_df len: 10
+2023-08-03 21:43:45,651.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-08-03 21:43:45,651.mtcars_server.INFO Recent Price in USD for Cadence Design Systems.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-31 19:46:08,286.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-31 19:46:08,288.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-08-03 21:43:45,652.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-03 21:43:45,655.mtcars_server.INFO Rendering Price chart with 1 points
+2023-08-03 21:43:47,126.mtcars_server.INFO init reactive_price_df len: 10
+2023-08-03 21:43:47,132.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-08-03 21:43:47,132.mtcars_server.INFO Recent Price in USD for Arch Capital Group Ltd..
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-08-03 21:43:47,134.mtcars_server.INFO Rendering Price table with 1 rows
+2023-08-03 21:43:47,138.mtcars_server.INFO Rendering Price chart with 1 points

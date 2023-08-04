@@ -65,9 +65,9 @@ def lookup_ticker(company):
 async def get_stock_price(ticker):
     logger.info("Calling get_stock_price for {ticker}")
     stock_api_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
-    logger.info(f"Calling yfinance_url: {stock_api_url}")
+    logger.info(f"Calling fetch_from_url: {stock_api_url}")
     result = await fetch_from_url(stock_api_url, "json")
-    logger.info(f"Data from Stock API: {result}")
+    logger.info(f"Data from yahoofinance: {result}")
     price = result.data["optionChain"]["result"][0]["quote"]["regularMarketPrice"]
     # price = randint(60, 190)  # This is a random number generator for testing
     return price
@@ -97,7 +97,7 @@ async def update_csv_stock():
             ]
         update_interval = 60  # Update every 1 minute (60 seconds)
         total_runtime = 15 * 60  # Total runtime maximum of 15 minutes
-        num_updates = 10  # Keep the most recent 10 readings
+        num_updates = 100 # Keep the most recent 10 readings
         logger.info(f"update_interval: {update_interval}")
         logger.info(f"total_runtime: {total_runtime}")
         logger.info(f"num_updates: {num_updates}")
@@ -117,6 +117,7 @@ async def update_csv_stock():
             for company in companies:
                 ticker = lookup_ticker(company)
                 new_price = await get_stock_price(ticker)
+                daily_high = await get_daily_high(ticker)
                 time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current time
                 new_record = {
                     "Company": company,
