@@ -236,6 +236,23 @@ def get_mtcars_server_functions(input, output, session):
         message = f"{line1}\n{line2}\n{line3}"
         logger.info(f"{message}")
         return message
+    
+    @output
+    @render.text
+    def mtcars_stocks_high():
+        """Return a string based on selected stock."""
+        logger.info("mtcars_price_stocks_daily_high starting")
+        selected = reactive_stock.get()
+        df = get_mtcars_stock_df()
+        logger.info(f"READING df len {len(df)}")
+        df_stocks = df[df["Company"] == reactive_stock.get()]
+        logger.info(f"Rendering Price table with {len(df_stocks)} rows")
+        df_stocks_high = df_stocks["Price"].max()
+        logger.info(f"READING df_stocks_high {df_stocks_high}")
+        message = f"The daily high for {selected} is {df_stocks_high}."
+        logger.info(f"{message}")
+    
+        return message
 
     @output
     @render.table
@@ -273,8 +290,10 @@ def get_mtcars_server_functions(input, output, session):
         mtcars_location_table,
         mtcars_location_chart,
         mtcars_stocks_string,
+        mtcars_stocks_high,
         mtcars_stocks_table,
         mtcars_stock_chart,
+        
     ]
 
 
