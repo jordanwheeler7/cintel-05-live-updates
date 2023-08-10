@@ -1,5 +1,7 @@
 # This file lists the files and folders that should NOT be committed to GitHub.
 
+
+
 # File named .env holding API Keys and other secrets
 .env
 

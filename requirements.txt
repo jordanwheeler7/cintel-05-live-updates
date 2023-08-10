@@ -1,8 +1,10 @@
+beatutifulsoup4
 htmltools 
 ipywidgets
 jinja2
 jupyter_bokeh 
 matplotlib
+MLB-StatsAPI
 pandas
 plotly 
 plotnine
@@ -14,4 +16,3 @@ rsconnect-python
 shiny 
 shinyswatch 
 shinywidgets 
-yfinance
